@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaf7e1;
+}
+
+.container {
+    background-color: #a5e39c;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #3a7c35;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inputName{
+    outline: none;
+    border: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.input-section label {
+    display: block;
+    font-size: 16px;
+    color: #3a7c35;
+    margin-bottom: 5px;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    background-color: #3a7c35;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 35px;
+}
+
+.buttons button:hover {
+    background-color: #2f6033;
+}
+
+.score-section, .info-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.score-section h2, .info-section h2 {
+    color: #3a7c35;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.score-section p, .info-section p {
+    color: #555;
+    font-size: 14px;
+}

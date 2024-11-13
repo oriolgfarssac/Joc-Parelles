@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joc de les Parelles</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Intro Joc</h1>
+        
+        <div class="input-section">
+            <label for="playerName">Introdueix el teu nom:</label>
+            <input type="text" id="playerName" class="inputName" placeholder="Nom del jugador">
+            <div class="buttons">
+                <button onclick="startGame()">Començar partida</button>
+                <button onclick="resetGame()">Borrar partida actual</button>
+            </div>
+        </div>
+
+        <div class="score-section">
+            <h2>Puntuació partida actual</h2>
+            <p id="infoGame">No hi ha cap partida en joc</p>
+        </div>
+
+        <div class="info-section">
+            <h2>Informació navegador</h2>
+            <p id="browserInfo"></p>
+            
+            <h2>Informació URL</h2>
+            <p id="urlInfo"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
